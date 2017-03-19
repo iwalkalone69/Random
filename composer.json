@@ -1,0 +1,8 @@
+{
+    "name": "iwalkalone/random",
+    "autoload": {
+        "psr-0" : {
+            "iwalkalone\\Random" : "src"
+        }
+    }
+}
