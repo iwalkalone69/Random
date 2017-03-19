@@ -21,17 +21,17 @@ class Random
                 $chars = 'ABCDEFGHIJKLMNPQRSTUVWXYZ';
                 break;
             case 'a':
-                $chars = 'abcdefghijklmnopqrstuvwxyz';
+                $chars = 'abcdefghijkmnopqrstuvwxyz';
                 break;
             case 'An':
-                $chars = 'ABCDEFGHJKLMNPQRSTWXYZ23456789';
+                $chars = 'ABCDEFGHJKLMNPQRSTWXYZ123456789';
                 break;
             case 'an':
-                $chars = 'abcdefghjklmnpqrstwxyz23456789';
+                $chars = 'abcdefghjklmnopqrstwxyz23456789';
                 break;
             case 'Aan':
 	    default:
-                $chars = 'ABCDEFGHJKLMNPQRSTWXYZabcdefghjklmnpqrstwxyz23456789';
+                $chars = 'ABCDEFGHJKLMNPQRSTWXYZabcdefghjklmnopqrstwxyz23456789';
                 break;
         }
 
